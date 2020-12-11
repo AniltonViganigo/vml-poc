@@ -1,0 +1,58 @@
+{
+  "name": "VML_03",
+  "description": "Trabalhando com um arquivo PDF\r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "DocumentFormat.OpenXml": "[2.8.0]",
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.Mail.Activities": "[1.9.3]",
+    "UiPath.PDF.Activities": "[3.3.0]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]",
+    "UiPath.WebAPI.Activities": "[1.6.0]",
+    "UiPath.Word.Activities": "[1.5.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f62a3746-328d-4abc-83b6-9f070f33fe45",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
